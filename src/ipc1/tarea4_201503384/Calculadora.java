@@ -16,7 +16,7 @@ public class Calculadora extends JFrame {
 
     public Calculadora() {
         setTitle("Calculadora");
-        setSize(400, 400);
+        setSize(300, 300);
         setLocationRelativeTo(null);
         
         Panel panel = new Panel();
