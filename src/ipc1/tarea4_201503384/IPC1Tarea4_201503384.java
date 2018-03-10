@@ -17,7 +17,9 @@ public class IPC1Tarea4_201503384 extends JFrame {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        Calculadora verCalculadora = new Calculadora();
+        verCalculadora.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        verCalculadora.setVisible(true);
     }
     
 }
