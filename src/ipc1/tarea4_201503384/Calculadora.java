@@ -5,7 +5,6 @@
  */
 package ipc1.tarea4_201503384;
 
-import java.awt.HeadlessException;
 import javax.swing.*;
 
 /**
@@ -16,7 +15,7 @@ public class Calculadora extends JFrame {
 
     public Calculadora() {
         setTitle("Calculadora");
-        setSize(300, 300);
+        setSize(450, 450);
         setLocationRelativeTo(null);
         
         Panel panel = new Panel();
